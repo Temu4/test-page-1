@@ -1,0 +1,31 @@
+.slick-arrow {
+  &.slick-hidden {
+    display: none;
+  }
+
+  &.slick-disabled {
+    opacity: 0.5;
+  }
+}
+
+.slick-arrow {
+  margin-top: -16px;
+  outline: 0;
+  width: 16px;
+  height: 32px;
+  z-index: 1;
+  line-height: 48px;
+  color: $red;
+  font-size: 35px;
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+
+  &.fa-angle-left {
+    left: 0;
+  }
+
+  &.fa-angle-right {
+    right: 0;
+  }
+}
